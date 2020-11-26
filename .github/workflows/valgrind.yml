@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        make test
-        valgrind ./build/test_calculator_operations.out
+        make test 
+        valgrind ./MiniProject_C/3_Implementation/build/Test_Calculator.out
